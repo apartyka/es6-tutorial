@@ -1,0 +1,30 @@
+{
+  "name": "es6-tutorial",
+  "version": "1.0.0",
+  "description": "following the es6-tutorial",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://apartyka@github.com/apartyka/es6-tutorial.git"
+  },
+  "keywords": [
+    "es6",
+    "babel"
+  ],
+  "author": "Adam Partyka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apartyka/es6-tutorial/issues"
+  },
+  "homepage": "https://github.com/apartyka/es6-tutorial#readme",
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-core": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "http-server": "^0.8.5"
+  }
+}
