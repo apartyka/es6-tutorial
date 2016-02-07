@@ -2,7 +2,7 @@
 
 
 
-let calculateMonthlyPayment = function(principal, years, rate) {
+let calculateMonthlyPayment = (principal, years, rate) => {
 
     let monthlyRate = 0;
 
