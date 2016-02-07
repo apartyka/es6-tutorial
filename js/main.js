@@ -60,7 +60,7 @@ document.getElementById('calcBtn').addEventListener('click', () => {
 
     let html = "";
 
-    amortization.forEach( ( year, index ) => html += `
+    amortization.forEach( (year, index) => html += `
         <tr>
             <td>${index + 1}</td>
             <td class="currency">${Math.round(year.principalY)}</td>
@@ -78,6 +78,7 @@ document.getElementById('calcBtn').addEventListener('click', () => {
             <td class="currency">${Math.round(year.balance)}</td>
         </tr>
     `);
+
     document.getElementById("amortization").innerHTML = html;
 
 });
