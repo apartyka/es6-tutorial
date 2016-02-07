@@ -45,7 +45,7 @@ let calculateAmortization = (principal, years, rate) => {
 
 };
 
-document.getElementById('calcBtn').addEventListener('click', function () {
+document.getElementById('calcBtn').addEventListener('click', () => {
 
     let principal = document.getElementById("principal").value;
     let years = document.getElementById("years").value;
